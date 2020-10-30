@@ -1,7 +1,7 @@
 <?php
 require 'config.php';
 
-$sql = "insert into users (name, age, phone, address) values ('Subin', 12, '9849009988', 'Nepal')";
+$sql = "user name (name, age, phone, address) values ('Subin', 12, '9849009988', 'Nepal')";
 $insert = $conn->query($sql);
 
 if($insert === TRUE) {
